@@ -1,0 +1,68 @@
+﻿
+
+    
+    
+ <Window x:Class="WpfLibrary.Views.SearchAudioBookView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        mc:Ignorable="d"
+        Title="Search AudioBook" Height="450" Width="1350"
+        DataContext="{Binding Source={StaticResource Locator}, Path=SearchAudioBook}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="7.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel VerticalAlignment="Top" Grid.Column="0" Margin="10,109,132,0" Grid.ColumnSpan="2">
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Title:"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Author:"           Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Narrated By:"      Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Genre:"            Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Publication Year:" Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Language:"         Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Price:"            Margin="0,4,0,0"/>
+        </StackPanel>
+
+        <StackPanel VerticalAlignment="Top" Margin="142,112,10,0" Grid.ColumnSpan="2" Height="230">
+            <TextBox  Text="{Binding Title}" />
+            <TextBox  Text="{Binding Author}"/>
+            <TextBox  Text="{Binding NarratedBy}"/>
+            <ComboBox Text="{Binding Genre}" x:Name="Genre"/>
+            <TextBox  Text="{Binding Year}"/>
+            <ComboBox Text="{Binding Language}" x:Name="Language"/>
+            <TextBox  Text="{Binding Price}"/>
+            <Button Content="Search" Command="{Binding SearchItemCommand}"/>
+        </StackPanel>
+
+        <ListView ItemsSource="{Binding AudioBooks}" Grid.Column="2" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Title" 
+                            DisplayMemberBinding="{Binding Path=Title}" Width="160" />
+                    <GridViewColumn Header="Author"
+                            DisplayMemberBinding="{Binding Path=Author}" Width="130"/>
+                    <GridViewColumn Header="Narrated by"
+                            DisplayMemberBinding="{Binding Path=NarratedBy}" Width="130"/>
+                    <GridViewColumn Header="Original Price"
+                            DisplayMemberBinding="{Binding Path=Price}" Width="80"/>
+                    <GridViewColumn Header="Price After Discount"
+                            DisplayMemberBinding="{Binding Path=AudioBookPrice}" Width="110"/>
+                    <GridViewColumn Header="Language"
+                            DisplayMemberBinding="{Binding Path=Language}" Width="90"/>
+                    <GridViewColumn Header="Publication Year"
+                            DisplayMemberBinding="{Binding Path=PublicationYear}" Width="90"/>
+                    <GridViewColumn Header="Genre"
+                            DisplayMemberBinding="{Binding Path=Genre}" Width="120"/>
+                    <GridViewColumn Header="ISBN"
+                            DisplayMemberBinding="{Binding Path=ISBN}" Width="120"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

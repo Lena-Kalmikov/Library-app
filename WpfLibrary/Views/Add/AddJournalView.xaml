@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfLibrary.Views.AddJournalView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLibrary.Views"
+        mc:Ignorable="d"
+        DataContext="{Binding Source={StaticResource Locator}, Path=AddJournal}"
+        Title="AddJournalView" Height="400" Width="450">
+    <Grid>
+        <StackPanel Grid.Column="2" VerticalAlignment="Top" Height="201" Margin="46,53,8,0">
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Title:" />
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Publisher:"        Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Topic:"            Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Edition:"          Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Publication Month:" Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Publication Year:" Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Language:"         Margin="0,4,0,0"/>
+            <TextBlock Style="{StaticResource TextBlockLeft}" Text="Price:"            Margin="0,4,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" VerticalAlignment="Top" Margin="236,53,44,0" Height="226">
+            <TextBox  Text="{Binding Title}"/>
+            <TextBox  Text="{Binding Publisher}"/>
+            <ComboBox x:Name="Topic"             Text="{Binding Topic}"/>
+            <TextBox  Text="{Binding Edition}"/>
+            <ComboBox x:Name="Month" Text="{Binding Month}"/>
+            <TextBox  Text="{Binding Year}"/>
+            <ComboBox x:Name="Language"         Text="{Binding Language}"/>
+            <TextBox  Text="{Binding Price}"/>
+        </StackPanel>
+
+        <Button Content="Add journal" Command="{Binding AddJournalCommand}" Margin="103,293,99,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

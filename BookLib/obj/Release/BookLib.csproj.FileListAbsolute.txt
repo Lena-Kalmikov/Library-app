@@ -1,0 +1,12 @@
+C:\Users\Lena\Desktop\לימודים\Projects\2nd project - oop in depth\Library_Lena\BookLib\bin\Release\BookLib.dll
+C:\Users\Lena\Desktop\לימודים\Projects\2nd project - oop in depth\Library_Lena\BookLib\bin\Release\BookLib.pdb
+C:\Users\Lena\Desktop\לימודים\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.csproj.AssemblyReference.cache
+C:\Users\Lena\Desktop\לימודים\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.csproj.CoreCompileInputs.cache
+C:\Users\Lena\Desktop\לימודים\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.dll
+C:\Users\Lena\Desktop\לימודים\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.pdb
+C:\Users\Lena\Desktop\לימודים\Sela\Projects\2nd project - oop in depth\Library_Lena\BookLib\bin\Release\BookLib.dll
+C:\Users\Lena\Desktop\לימודים\Sela\Projects\2nd project - oop in depth\Library_Lena\BookLib\bin\Release\BookLib.pdb
+C:\Users\Lena\Desktop\לימודים\Sela\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.csproj.AssemblyReference.cache
+C:\Users\Lena\Desktop\לימודים\Sela\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.csproj.CoreCompileInputs.cache
+C:\Users\Lena\Desktop\לימודים\Sela\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.dll
+C:\Users\Lena\Desktop\לימודים\Sela\Projects\2nd project - oop in depth\Library_Lena\BookLib\obj\Release\BookLib.pdb

@@ -1,0 +1,5 @@
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\BookLib\bin\Debug\BookLib.dll
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\BookLib\bin\Debug\BookLib.pdb
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\BookLib\obj\Debug\BookLib.csproj.CoreCompileInputs.cache
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\BookLib\obj\Debug\BookLib.dll
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\BookLib\obj\Debug\BookLib.pdb

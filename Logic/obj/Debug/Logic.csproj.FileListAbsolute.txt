@@ -1,0 +1,9 @@
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\bin\Debug\Logic.dll
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\bin\Debug\Logic.pdb
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\bin\Debug\BookLib.dll
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\bin\Debug\BookLib.pdb
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\obj\Debug\Logic.csproj.AssemblyReference.cache
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\obj\Debug\Logic.csproj.CopyComplete
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\obj\Debug\Logic.dll
+D:\C#\Sela\3_OOP_in_depth\FinalProject_Lena\Library_Lena\Logic\obj\Debug\Logic.pdb

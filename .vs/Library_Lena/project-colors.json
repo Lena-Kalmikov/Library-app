@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "50b73bf2-169b-463c-ab73-f37e6aa300c0": {
+      "ProjectGuid": "50b73bf2-169b-463c-ab73-f37e6aa300c0",
+      "DisplayName": "WpfLibrary",
+      "ColorIndex": 0
+    },
+    "eb985044-ad5a-43ce-92d6-7c0c010a9fc4": {
+      "ProjectGuid": "eb985044-ad5a-43ce-92d6-7c0c010a9fc4",
+      "DisplayName": "BookLib",
+      "ColorIndex": 1
+    },
+    "6c45fbfb-6d5d-43c7-a212-5c910131746d": {
+      "ProjectGuid": "6c45fbfb-6d5d-43c7-a212-5c910131746d",
+      "DisplayName": "Logic",
+      "ColorIndex": 2
+    },
+    "9384451f-e4fe-406a-a974-a4351fbb811c": {
+      "ProjectGuid": "9384451f-e4fe-406a-a974-a4351fbb811c",
+      "DisplayName": "UnitTestLibrary",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
