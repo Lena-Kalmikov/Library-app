@@ -1,6 +1,6 @@
 ## Library App
 
-The goal of this project was to practice object oriented programming with C#, with a stress on MVVM architecture and test driven development, in order to create a library app in which one can search for items (using LINQ for queries) and add items.
+The goal of this project was to practice object oriented programming with C#, using .Net framework, with a stress on MVVM architecture and test driven development, in order to create a library app in which one can search for items (using LINQ for queries) and add items.
 
 Application:
 1. Use the general search and find an item by title, price, language or publication year (the categories in common for all item types in the library).
